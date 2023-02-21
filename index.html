@@ -11,8 +11,30 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
         <script src="audios.js"></script>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+
+            body{
+                font-family: 'Courier New', Courier, monospace;
+                background-color:aqua;
+            }
+
+            header{
+                background-color:blue;
+                padding: 15px;
+                text-align: center;
+                font-size: 15px;
+                color: white;
+            }
+        </style>
+
     </head>
     <body>
+        <header>
+            <h1 class="color">Podcast</h1>
+        </header>
         <section id="reproductor">
             <audio id="miaudio">
                 <source src="audio/moonlight.mp3">
